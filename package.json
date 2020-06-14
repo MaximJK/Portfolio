@@ -1,0 +1,19 @@
+{
+  "name": "portfoliogatsby",
+  "version": "1.0.0",
+  "description": "Gatsby Portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MaximJK/PortfolioGatsby.git"
+  },
+  "author": "Max Koiwai",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MaximJK/PortfolioGatsby/issues"
+  },
+  "homepage": "https://github.com/MaximJK/PortfolioGatsby#readme"
+}
