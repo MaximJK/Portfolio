@@ -1,5 +1,12 @@
 import React from "react"
-
+import headerStyles from "./header.module.css"
 export default function Header(props) {
-  return <h1>{props.headerText}</h1>
+  return (
+     <div className={headerStyles.header}>
+        <div>
+  <p>Max Koiwai</p>
+  
+    </div>
+  </div>
+  )
 }
