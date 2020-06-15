@@ -1,0 +1,10 @@
+.links{
+float: right;
+margin-right: 7vh;
+}
+
+.links > div > p {
+    height: 1vh;
+    font-size: 2em;
+    text-align: right;
+}

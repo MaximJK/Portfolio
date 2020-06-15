@@ -1,17 +1,17 @@
 .header{
-    border-bottom: 1vh solid #fdfdfd;
+    border-bottom: .75vh solid #fffffe;
     padding-left: 3vh;
     margin: 0;
-    padding-top: 1.5vh;
+    padding-top: 3vh;
 }
 .header > div {
     margin-bottom: 1em;
 }
 .header > div > p {
     margin: 0;
-    color: #a6023c;
+    color: #c02045;
     font-family: 'Vollkorn', serif;
-    font-size: 2em;
+    font-size: 2.75em;
     padding: 0;
     height: 1em;
 }
