@@ -1,10 +1,12 @@
 .links{
-float: right;
-margin-right: 7vh;
+height: 100%;
+width: 100%;
 }
 
 .links > div > p {
     height: 1vh;
     font-size: 2em;
     text-align: right;
+    /* float: right; */
+    margin-right: 7vh;
 }
