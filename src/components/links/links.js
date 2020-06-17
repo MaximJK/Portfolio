@@ -4,13 +4,34 @@ export default function Links(props) {
   function handleBodyClick(comp) {
     props.setBody(comp);
   }
+  
+  let about = <p onClick={() => handleBodyClick('aboutme') }id='aboutme'>About</p>
+  let projects = <p onClick={() => handleBodyClick('projects')}id='project'>Projects</p>
+  let resume = <p onClick={() => handleBodyClick('resume')}id='resume'>Resume</p>
+  let contact = <p onClick={() => handleBodyClick('contact')}id='contact'>Contact</p>
+  switch(props.content) {
+    case 'aboutme':
+        about = <span><p onClick={() => handleBodyClick('aboutme') }id='aboutme'>About</p></span>
+        break
+    case 'projects':
+        projects = <span><p onClick={() => handleBodyClick('projects')}id='project'>Projects</p></span>
+        break
+    case 'resume':
+        resume = <span><p onClick={() => handleBodyClick('resume')}id='resume'>Resume</p></span>
+        break
+    case 'contact':
+        contact = <span><p onClick={() => handleBodyClick('contact')}id='contact'>Contact</p></span>
+        break
+  }
+
   return (
      <div className={linksStyles.links}>
         <div>
-  <p onClick={() => handleBodyClick('aboutme')}>About</p>
-  <p onClick={() => handleBodyClick('projects')}>Projects</p>
-  <p onClick={() => handleBodyClick('resume')}>Resume</p>
-  <p onClick={() => handleBodyClick('contact')}>Contact</p>
+
+ {about}
+ {projects}
+ {resume}
+ {contact}
   
     </div>
   </div>

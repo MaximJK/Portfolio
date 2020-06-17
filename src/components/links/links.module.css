@@ -10,10 +10,17 @@
 .links > div {
     margin-left: 4vh;
 }
+.links > div > span > p{
+    font-size: 3rem;
+    color: #151414;
+    height: 1vh;
+    text-decoration: line-through;
+}
 .links > div > p {
     height: 1vh;
     font-size: 3rem;
     color: #151414;
+    
 
     /* margin-right: 7vh; */
 }

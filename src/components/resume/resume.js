@@ -4,7 +4,7 @@ export default function Resume(props) {
   return (
      <div className={resumeStyles.resume}>
         <div>
-    'projects'
+    'resume'
     </div>
   </div>
   )
