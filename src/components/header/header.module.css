@@ -1,11 +1,13 @@
 .header{
-    border-bottom: .75vh solid #fffffe;
+    border-bottom: .65vh solid rgb(245, 245, 245);
     padding-left: 3vh;
     margin: 0;
     padding-top: 3vh;
 }
 .header > div {
-    margin-bottom: 1em;
+    margin-bottom: 4.5vh;
+
+
 }
 .header > div > p {
     margin: 0;

@@ -1,12 +1,19 @@
 .links{
-height: 100%;
-width: 100%;
+    /* height: 100%; */
+    width: 25%;
+    /* text-align: right; */
+    /* float: right; */
+    display: flex;
+    /* margin-left: 1vh; */
+    margin-top: 10%;
 }
-
+.links > div {
+    margin-left: 4vh;
+}
 .links > div > p {
     height: 1vh;
-    font-size: 2em;
-    text-align: right;
-    /* float: right; */
-    margin-right: 7vh;
+    font-size: 3rem;
+    color: #151414;
+
+    /* margin-right: 7vh; */
 }
