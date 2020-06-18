@@ -25,6 +25,7 @@ body{
     background: linear-gradient(90deg, rgba(202,204,203,1) 0%, rgb(245, 245, 245) 100%);
     position: absolute;
     bottom: 0;
+    overflow: auto;
 }
 
 .link {
@@ -35,4 +36,13 @@ body{
 }
 .link:hover {
     color: rgb(10, 252, 30)
+}
+a:hover{
+    color: rgb(10, 252, 30)
+}
+a, a:link{
+    text-decoration: none;
+    margin: 0;
+    color: #151414;
+    
 }

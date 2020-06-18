@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <div className='flex'>
     <div className='grid'>
-      <Header />
+      <Header content={body} setBody={setBody}/>
       {/* <Link to="/contact/">Contact</Link> */}
       
       <Body content={body} setBody={setBody}/>
