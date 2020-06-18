@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Vollkorn:wght@500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 html{
     
@@ -6,7 +7,7 @@ html{
 
 body{
     margin: 0;
-    color: #1b1a1a;
+    color: #1a1717;
     font-family: 'Vollkorn', serif;
     font-weight: 600;
     font-size:1.5em ;
@@ -23,5 +24,14 @@ body{
     border: rgb(43, 43, 43) solid 1px;
     background: linear-gradient(90deg, rgba(202,204,203,1) 0%, rgb(245, 245, 245) 100%);
     flex: 1;
+}
 
+.link {
+    color: black;
+    text-decoration: underline;
+    transition: color .33s ease;
+
+}
+.link:hover {
+    color: #00f
 }

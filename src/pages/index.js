@@ -14,7 +14,7 @@ export default function Home() {
       
       <Body content={body} setBody={setBody}/>
 
-      <Footer content={body} setBody={setBody}/>
+      {/* <Footer content={body} setBody={setBody}/> */}
     </div>
     <Links content={body} setBody={setBody}/>
     </div>
