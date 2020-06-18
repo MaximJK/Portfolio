@@ -1,6 +1,6 @@
 import React from "react"
 import projectsStyles from "./projects.module.css"
-import op from "../../../static/op.logo.png"
+import op from "../../../static/oplogo.png"
 import sema from "../../../static/semapreview.png"
 import openbook from "../../../static/openbookp.png"
 
