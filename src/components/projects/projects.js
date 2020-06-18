@@ -4,7 +4,7 @@ export default function Projects(props) {
   return (
      <div className={projectsStyles.projects}>
         <div>
-    'projects'
+    projects
     </div>
   </div>
   )

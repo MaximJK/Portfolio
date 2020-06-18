@@ -14,16 +14,17 @@ body{
     background-color: #f8f8ff;
 }
 .flex{
-    display: flex;
+    /* display: flex; */
 }
 .grid{
     width: 50%;
     margin-left: 25%;
-    height: 100vh;
+    height: 100%;
     background-color: #cacccb;
     border: rgb(43, 43, 43) solid 1px;
     background: linear-gradient(90deg, rgba(202,204,203,1) 0%, rgb(245, 245, 245) 100%);
-    flex: 1;
+    position: absolute;
+    bottom: 0;
 }
 
 .link {
@@ -33,5 +34,5 @@ body{
 
 }
 .link:hover {
-    color: #00f
+    color: rgb(10, 252, 30)
 }
