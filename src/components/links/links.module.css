@@ -15,12 +15,18 @@
     color: #151414;
     height: 1vh;
     text-decoration: line-through;
+    transition: color .33s ease;
 }
 .links > div > p {
     height: 1vh;
     font-size: 3rem;
     color: #151414;
-    
-
+    transition: color .33s ease;
     /* margin-right: 7vh; */
+}
+.links > div > p:hover{
+    color: rgb(10, 252, 30)
+}
+.links > div > span > p:hover{
+    color: rgb(10, 252, 30)
 }
