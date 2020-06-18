@@ -7,7 +7,7 @@
     padding-top: 2vh;
 }
 .aboutme > p:nth-child(2){
-    text-align: center;
+    /* text-align: center; */
 }
 
 .aboutme > ul{
@@ -16,7 +16,7 @@
     font-weight: 400;
     font-size: 16px;
     text-align: center;
-    margin-top: 1vh;
+    margin-top: 3vh;
 
 }
 
@@ -33,4 +33,5 @@ text-decoration: underline;
     /* padding-right: 4vh; */
     padding-left: 4vh;
     /* padding-top: 2vh; */
+    margin-bottom: 15vh;
 }
