@@ -1,10 +1,20 @@
-.aboutme > p{
+ .aboutme > p{
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 18px;
     padding-right: 4vh;
     padding-left: 4vh;
     padding-top: 2vh;
+    line-height: 3.5vh;
+}
+ .aboutme > p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    padding-right: 4vh;
+    padding-left: 4vh;
+    padding-top: 2vh;
+    line-height: 3.5vh;
 }
 .aboutme > p:nth-child(2){
     /* text-align: center; */
@@ -14,10 +24,10 @@
     list-style: none;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 18px;
     text-align: center;
     margin-top: 3vh;
-
+    margin-right: 5vh;
 }
 
 .aboutme > ul > li >a{
@@ -31,7 +41,10 @@ text-decoration: underline;
     display: block;
     margin-top: 1vh;
     /* padding-right: 4vh; */
-    padding-left: 4vh;
+    /* padding-left: 4vh; */
     /* padding-top: 2vh; */
-    margin-bottom: 15vh;
+    
+}
+.linkId{
+    /* color: rgb(16, 219, 242); */
 }

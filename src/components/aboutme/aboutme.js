@@ -11,11 +11,11 @@ export default function Aboutme(props) {
     <p >Let's code together. Feel free to reach out:	</p>
     
     <ul>
-      <li>Email: <a href="mailto:maxjacobkoiwai@gmail.com" className="link" target="_blank">maxjacobkoiwai@gmail.com</a></li>
+      <li className={aboutmeStyles.linkId}>Email: <a href="mailto:maxjacobkoiwai@gmail.com"  target="_blank">maxjacobkoiwai@gmail.com</a></li>
       <br></br>
-      <li>LinkedIn: <a href="https://www.linkedin.com/in/maxkoiwai/" className="link" target="_blank">@maxkoiwai</a></li>
+      <li className={aboutmeStyles.linkId}>LinkedIn: <a href="https://www.linkedin.com/in/maxkoiwai/"  target="_blank">@maxkoiwai</a></li>
       <br></br>
-      <li>Github: <a href="https://github.com/MaximJK" className="link" target="_blank">@maximjk</a></li>
+      <li className={aboutmeStyles.linkId}>Git: <a href="https://github.com/MaximJK"  target="_blank">@maximjk</a></li>
     </ul>
 <br></br>
     <img src={headshot}></img>

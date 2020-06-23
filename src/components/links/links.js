@@ -10,9 +10,9 @@ export default function Links(props) {
   let about = <p onClick={() => handleBodyClick('aboutme') }id='aboutme'>About</p>
   let projects = <p onClick={() => handleBodyClick('projects')}id='project'>Projects</p>
   // let resume = <p onClick={() => handleBodyClick('resume')}id='resume'>Resume</p>
-  let resume = <p><a href="MaxKoiwaiResume.pdf">Resume</a></p>
+  let resume = <p><a href="MaxKoiwaiResume.pdf" >Resume</a></p>
   // let contact = <p onClick={() => handleBodyClick('contact')}id='contact'>Contact</p>
-  let contact = <p><a href="mailto:maxjacobkoiwai@gmail.com" className="link" target="_blank">Contact</a></p>
+  let contact = <p><a href="mailto:maxjacobkoiwai@gmail.com"  target="_blank">Contact</a></p>
   
   switch(props.content) {
     case 'aboutme':

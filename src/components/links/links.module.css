@@ -5,23 +5,35 @@
     float: right;
     display: flex;
     
-    margin-top: 10%;
+    margin-top: 8%;
 }
 .links > div {
     margin-left: 4vh;
 }
 .links > div > span > p{
     font-size: 3rem;
-    color: #151414;
+    color: #090909;
     height: 1vh;
     text-decoration: line-through;
     transition: color .33s ease;
     cursor: pointer;
 }
+
+.links > div > p > a{
+    font-size: 3rem;
+    color: #090909;
+    height: 1vh;
+    /* text-decoration: line-through; */
+    transition: color .33s ease;
+    cursor: pointer;
+}
+.links > div > p > a:hover{
+    color: rgb(10, 252, 30)
+}
 .links > div > p {
     height: 1vh;
     font-size: 3rem;
-    color: #151414;
+    color: #090909;
     transition: color .33s ease;
     cursor: pointer;
     /* margin: 0; */

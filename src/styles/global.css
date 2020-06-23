@@ -2,30 +2,49 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 html{
-    
+    height: 100%;
 }
-
+* {
+    /* box-sizing: border-box; */
+  }
 body{
     margin: 0;
-    color: #1a1717;
+    color: #242321;;
     font-family: 'Vollkorn', serif;
     font-weight: 600;
     font-size:1.5em ;
-    background-color: #f8f8ff;
+    background-image: url("../../static/bgr.jpg");
+    background-color: #121111;
+    background-position: 65% 40%;
+    background-size: 200%;
+    background-repeat: no-repeat;
+    /* filter: blur(8px);
+    -webkit-filter: blur(8px); */
+    height: 100%;
+    
+    backdrop-filter: brightness(100%) contrast(85%);
+}
+.bg{
+    
 }
 .flex{
-    /* display: flex; */
+    display: flex;
+    justify-content: space-between;
+    z-index: 2;
+   
 }
-.grid{
+.grid {
     width: 50%;
     margin-left: 25%;
     height: 100%;
-    background-color: #cacccb;
-    border: rgb(43, 43, 43) solid 1px;
-    background: linear-gradient(90deg, rgba(202,204,203,1) 0%, rgb(245, 245, 245) 100%);
+    border: rgba(18, 18, 18, 0.52) solid 1px;
+    background: linear-gradient(90deg, rgba(236, 236, 236, 0.87) 0%, rgba(245, 245, 245, 0.42) 100%);
     position: absolute;
     bottom: 0;
     overflow: auto;
+}
+.textSpan{
+    background-color: whitesmoke;
 }
 
 .link {
@@ -40,9 +59,9 @@ body{
 a:hover{
     color: rgb(10, 252, 30)
 }
-a, a:link{
+a{
     text-decoration: none;
     margin: 0;
-    color: #151414;
+    color: #202e32;
     
 }

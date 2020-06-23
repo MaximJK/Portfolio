@@ -2,7 +2,7 @@
 display: flex;
 font-family: 'Roboto', sans-serif;
     font-weight: 400;
-    font-size: 14px;
+    font-size: 18px;
     margin-top: 3vh;
 }
 
@@ -43,7 +43,7 @@ font-family: 'Roboto', sans-serif;
     padding: 1vh;
     text-align: center;
  }
- .projectBox > img{
+ .projectBox > a > img{
     border-radius: 0.35em;
     width: 27vh;
     margin-left: auto;

@@ -1,8 +1,9 @@
 .header{
-    border-bottom: .65vh solid rgb(245, 245, 245);
+    border-bottom: 2px solid rgb(245, 245, 245);
     padding-left: 3vh;
     margin: 0;
     padding-top: 3vh;
+    
 }
 .header > div {
     margin-bottom: 4.5vh;
@@ -16,7 +17,7 @@
     font-size: 2.75em;
     padding: 0;
     height: 1em;
-    background: -webkit-radial-gradient(circle, rgb(56, 147, 165) 0%, rgb(210, 128, 128) 35%, rgb(88, 88, 123) 100%);
+    background: -webkit-radial-gradient(circle, rgb(55, 163, 184) 0%, rgb(206, 92, 74) 40%, rgb(73, 73, 178) 100%);
     background-clip: text;
   -webkit-text-fill-color: transparent;
   cursor: pointer;
