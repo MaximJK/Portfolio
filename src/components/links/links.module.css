@@ -1,18 +1,18 @@
 .links{
     height: 100%;
-    width: 25%;
-    font-size: 2.75em;
+    width: 28%;
+    font-size: 3em;
     float: right;
     display: flex;
     
-    margin-top: 8%;
+    margin-top: 6%;
 }
 .links > div {
-    margin-left: 4vh;
+    /* margin-left: 4vh; */
 }
 .links > div > span > p{
     
-    color: #090909;
+    color: #000000;
     height: 1vh;
     text-decoration: line-through;
     transition: color .33s ease;

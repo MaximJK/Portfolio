@@ -6,7 +6,7 @@ font-family: 'Roboto', sans-serif;
     margin-top: 3vh;
 }
 
-.projects > div> a> p{
+.projectbox > p{
     
     /* text-align: center; */
 }
@@ -41,6 +41,8 @@ font-family: 'Roboto', sans-serif;
     border-bottom: 1px solid #ffffff4f;
     margin-bottom: 5vh;
     padding: 1vh;
+    /* padding-left: 2vh;
+    padding-right: 2vh; */
     text-align: center;
  }
  .projectBox > a > img{
@@ -55,6 +57,10 @@ font-family: 'Roboto', sans-serif;
  .projectBox > a{
     font-size: 16px;
     text-decoration: underline;
+ }
+ .projectBox > p{
+    padding-left: 5vh;
+    padding-right: 5vh;
  }
  .title{
     font-family: 'Vollkorn', serif;

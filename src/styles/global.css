@@ -22,7 +22,7 @@ body{
     -webkit-filter: blur(8px); */
     height: 100%;
     
-    backdrop-filter: brightness(100%) contrast(85%);
+    backdrop-filter: brightness(100%) contrast(75%);
 }
 .bg{
     
@@ -34,11 +34,11 @@ body{
    
 }
 .grid {
-    width: 50%;
+    width: 45%;
     margin-left: 25%;
     height: 100%;
     border: rgba(18, 18, 18, 0.52) solid 1px;
-    background: linear-gradient(90deg, rgba(236, 236, 236, 0.87) 0%, rgba(245, 245, 245, 0.42) 100%);
+    background: linear-gradient(90deg, rgba(244, 244, 244, 0.988) 0%, rgba(245, 245, 245, 0.42) 100%);
     position: absolute;
     bottom: 0;
     overflow: auto;
