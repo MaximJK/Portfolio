@@ -7,7 +7,7 @@ import Footer from "../components/footer/footer";
 export default function Home() {
   const [body, setBody] = useState('aboutme');
   return (
-    <div>
+    <div className='grad'>
     <div className='bg'></div>
 
     <div className='flex'>

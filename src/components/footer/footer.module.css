@@ -2,7 +2,7 @@
     font-weight: 400;
     font-size: 1.65vh;
     height: 98vh;
-    color:#f3f7f9;
+    color:#555454;
     /* position: relative; */
     width: 25%;
 }
@@ -10,5 +10,4 @@
     transform: rotate(270deg);
     transform-origin: 100% 100%;
     margin-top: 50vh;
-    text-shadow: 1px 1px 1px black;
 }
