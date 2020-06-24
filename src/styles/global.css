@@ -12,11 +12,11 @@ body{
     color: #242321;;
     font-family: 'Vollkorn', serif;
     font-weight: 600;
-    font-size:1.5em ;
+    /* font-size:1.5em ; */
     background-image: url("../../static/bgr.jpg");
     background-color: #121111;
-    background-position: 65% 40%;
-    background-size: 200%;
+    background-position: 80% 45%;
+    background-size: 170%;
     background-repeat: no-repeat;
     /* filter: blur(8px);
     -webkit-filter: blur(8px); */

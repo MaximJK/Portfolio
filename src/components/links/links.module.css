@@ -1,7 +1,7 @@
 .links{
     height: 100%;
     width: 25%;
-    
+    font-size: 2.75em;
     float: right;
     display: flex;
     
@@ -11,7 +11,7 @@
     margin-left: 4vh;
 }
 .links > div > span > p{
-    font-size: 3rem;
+    
     color: #090909;
     height: 1vh;
     text-decoration: line-through;
@@ -20,7 +20,7 @@
 }
 
 .links > div > p > a{
-    font-size: 3rem;
+    /* font-size: 3rem; */
     color: #090909;
     height: 1vh;
     /* text-decoration: line-through; */
@@ -32,7 +32,7 @@
 }
 .links > div > p {
     height: 1vh;
-    font-size: 3rem;
+    
     color: #090909;
     transition: color .33s ease;
     cursor: pointer;
