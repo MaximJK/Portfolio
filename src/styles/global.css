@@ -13,11 +13,11 @@ body{
     font-family: 'Vollkorn', serif;
     font-weight: 600;
     /* font-size:1.5em ; */
-    background-image: url("../../static/bgr.jpg");
-    background-color: #121111;
-    background-position: 80% 45%;
-    background-size: 170%;
-    background-repeat: no-repeat;
+    /* background-image: url("../../static/bgr.jpg"); */
+    background-color: #fbfbfb;;
+    /* background-position: 80% 45%; */
+    /* background-size: 170%; */
+    /* background-repeat: no-repeat; */
     /* filter: blur(8px);
     -webkit-filter: blur(8px); */
     height: 100%;
@@ -43,7 +43,7 @@ body{
     position: absolute;
     bottom: 0;
     overflow: auto;
-    background: #f2f2f2;
+    background: linear-gradient(90deg, rgba(202,204,203,1) 0%, rgb(245, 245, 245) 100%);
 }
 .textSpan{
     background-color: whitesmoke;
