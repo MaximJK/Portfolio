@@ -11,6 +11,7 @@ export default function Home() {
   return (
     <div className='grad'>
         <Helmet>
+        <title>Max Koiwai</title>
         <meta property='og:title' content='Max Koiwai'/>
         <meta property='og:image' content='../../static/portPrev.png'/>
         <meta property='og:description' content='Max Koiwai'/>
