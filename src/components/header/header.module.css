@@ -17,7 +17,7 @@
     font-size: 3.75em;
     padding: 0;
     height: 1em;
-    background: -webkit-radial-gradient(circle,#0a5868 15%,#753636 50%,#070777 100%);
+    background: -webkit-radial-gradient(circle,#26a6c1 15%,#d54242 50%,#2525c2 100%);
     /* background: -webkit-radial-gradient(circle, rgb(56, 147, 165) 0%, rgb(210, 128, 128) 35%, rgb(88, 88, 123) 100%); */
     background-clip: text;
   -webkit-text-fill-color: transparent;
