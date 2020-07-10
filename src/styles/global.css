@@ -56,14 +56,16 @@ body{
 
 }
 .link:hover {
-    color: rgb(10, 252, 30)
+    color: rgb(10, 252, 30);
+    transition: color .33s ease;
 }
 a:hover{
-    color: rgb(10, 252, 30)
+    color: rgb(10, 252, 30);
+    transition: color .33s ease;
 }
 a{
     text-decoration: none;
     margin: 0;
-    color: #202e32;
+    color: #f5fdff;
     
 }
