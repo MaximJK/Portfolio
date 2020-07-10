@@ -15,7 +15,7 @@ export default function Home() {
         <meta property='og:title' content='Max Koiwai'/>
         <meta property='og:image' content='https://i.imgur.com/JvCX015.png'/>
         <meta property='og:description' content='Max Koiwai'/>
-        <meta property='og:url' content='www.maximjk.com' />
+        <meta property='og:url' content='https://maximjk.com/' />
         </Helmet>
     <div className='bg'></div>
 
