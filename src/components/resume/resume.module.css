@@ -34,6 +34,7 @@
   margin-bottom: 2vh;
   margin:auto;
   background: none;
+  box-shadow: 5px 10px 8px #888888;
 }
 
 .text{
