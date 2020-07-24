@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "gatsby";
-// import resume from "../../../static/maxkoiwairesume.pdf"
 import linksStyles from "./links.module.css"
 export default function Links(props) {
   function handleBodyClick(comp) {
@@ -9,8 +8,9 @@ export default function Links(props) {
   
   let about = <p onClick={() => handleBodyClick('aboutme') }id='aboutme'>About</p>
   let projects = <p onClick={() => handleBodyClick('projects')}id='project'>Projects</p>
+  let resume = <p onClick={() => handleBodyClick('resume')}id='resume'>Resume</p>
   // let resume = <p onClick={() => handleBodyClick('resume')}id='resume'>Resume</p>
-  let resume = <p><a href="MaxKoiwaiResume.pdf" >Resume</a></p>
+  // let resume = <p><a href="MaxKoiwaiResume.pdf" >Resume</a></p>
   // let contact = <p onClick={() => handleBodyClick('contact')}id='contact'>Contact</p>
   let contact = <p><a href="mailto:maxjacobkoiwai@gmail.com"  target="_blank">Contact</a></p>
   
@@ -21,9 +21,9 @@ export default function Links(props) {
     case 'projects':
         projects = <span><p onClick={() => handleBodyClick('projects')}id='project'>Projects</p></span>
         break
-    // case 'resume':
-        // resume = <span><p onClick={() => handleBodyClick('resume')}id='resume'>Resume</p></span>
-        // break
+    case 'resume':
+        resume = <span><p onClick={() => handleBodyClick('resume')}id='resume'>Resume</p></span>
+        break
     // case 'contact':
     //     contact = <span><p onClick={() => handleBodyClick('contact')}id='contact'>Contact</p></span>
     //     break
