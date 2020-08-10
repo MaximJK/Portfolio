@@ -43,7 +43,7 @@ body{
     position: absolute;
     bottom: 0;
     overflow: auto;
-    background: linear-gradient(90deg, rgba(202,204,203,1) 0%, rgb(245, 245, 245) 100%);
+    background: rgb(248, 252, 250);
 }
 .textSpan{
     background-color: whitesmoke;

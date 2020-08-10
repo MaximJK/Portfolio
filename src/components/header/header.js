@@ -5,13 +5,13 @@ export default function Header(props) {
     props.setBody(comp);
   }
 
-  let header = <p onClick={() => handleBodyClick('aboutme') }id='aboutme'>Max Koiwai</p>
+  let header = <p onClick={() => handleBodyClick('aboutme')} onKeyDown={() => handleBodyClick('aboutme')} id='aboutme'>Max Koiwai</p>
   return (
      <div className={headerStyles.header}>
         <div>
     {header}
   
-    </div>
+      </div>
   </div>
   )
 }

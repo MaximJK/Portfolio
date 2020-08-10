@@ -6,7 +6,7 @@ export default function Resume(props) {
      <div className={resumeStyles.resume}>
        <a href="MaxKoiwaiResume.pdf" >
         <div className={resumeStyles.container}>
-        <img src='ResumeThumb.png' className={resumeStyles.thumb}></img>
+        <img src='ResumeThumb.png' alt='resume' className={resumeStyles.thumb}></img>
         <div className={resumeStyles.overlay}>
           <div class={resumeStyles.text}>Resume</div>
         </div>

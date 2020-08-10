@@ -1,5 +1,4 @@
-import React from "react";
-import { Link } from "gatsby";
+import React from "react"; 
 import linksStyles from "./links.module.css"
 export default function Links(props) {
   function handleBodyClick(comp) {
