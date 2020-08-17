@@ -1,8 +1,8 @@
 import React from "react"
-
 import resumeStyles from "./resume.module.css"
 export default function Resume(props) {
   return (
+    
      <div className={resumeStyles.resume}>
        <a href="MaxKoiwaiResume.pdf" >
         <div className={resumeStyles.container}>

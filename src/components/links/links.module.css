@@ -2,42 +2,50 @@
     height: 100%;
     width: 28%;
     font-size: 3em;
-    float: right;
-    display: flex;
     
     margin-top: 10%;
 }
 .links > div {
     /* margin-left: 4vh; */
 }
-.links > div > span > p{
+.links > div > span > a{
     
     color: #000000;
     height: 1vh;
     text-decoration: line-through;
     transition: color .33s ease;
     cursor: pointer;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+
 }
 
-.links > div > p > a{
+.links > div > a{
     /* font-size: 3rem; */
     color: #090909;
     height: 1vh;
     /* text-decoration: line-through; */
     transition: color .33s ease;
     cursor: pointer;
+    display: block;
 }
-.links > div > p > a:hover{
+.links > div > a:hover{
     color: rgb(10, 252, 30)
 }
-.links > div > p {
+.links > div > a {
     height: 1vh;
-    
+
     color: #090909;
     transition: color .33s ease;
     cursor: pointer;
-    /* margin: 0; */
-    /* margin-right: 7vh; */
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+
 }
 /* .links > div > a{
     height: 1vh;
@@ -46,9 +54,9 @@
     transition: color .33s ease;
     cursor: pointer;
 } */
-.links > div > p:hover{
+.links > div > a:hover{
     color: rgb(10, 252, 30)
 }
-.links > div > span > p:hover{
+.links > div > span > a:hover{
     color: rgb(10, 252, 30)
 }

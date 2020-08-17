@@ -1,27 +1,29 @@
 import React from "react"; 
-import linksStyles from "./links.module.css"
+import {Link} from 'gatsby';
+import linksStyles from "./links.module.css";
+
 export default function Links(props) {
   function handleBodyClick(comp) {
     props.setBody(comp);
   }
   
-  let about = <p onClick={() => handleBodyClick('aboutme') }id='aboutme'>About</p>
-  let projects = <p onClick={() => handleBodyClick('projects')}id='project'>Projects</p>
-  let resume = <p onClick={() => handleBodyClick('resume')}id='resume'>Resume</p>
+  let about = <Link to='/' onClick={() => handleBodyClick('aboutme') }id='aboutme'>About</Link>
+  let projects = <Link to='/projects' onClick={() => handleBodyClick('projects')}id='project'>Projects</Link>
+  let resume = <Link to='/resume' onClick={() => handleBodyClick('resume')}id='resume'>Resume</Link>
   // let resume = <p onClick={() => handleBodyClick('resume')}id='resume'>Resume</p>
   // let resume = <p><a href="MaxKoiwaiResume.pdf" >Resume</a></p>
   // let contact = <p onClick={() => handleBodyClick('contact')}id='contact'>Contact</p>
-  let contact = <p><a href="mailto:maxjacobkoiwai@gmail.com"  target="_blank">Contact</a></p>
+  let contact = <a href="mailto:maxjacobkoiwai@gmail.com"  target="_blank">Contact</a>
   
   switch(props.content) {
     case 'aboutme':
-        about = <span><p onClick={() => handleBodyClick('aboutme') }id='aboutme'>About</p></span>
+        about = <span><Link onClick={() => handleBodyClick('aboutme') }id='aboutme'>About</Link></span>
         break
     case 'projects':
-        projects = <span><p onClick={() => handleBodyClick('projects')}id='project'>Projects</p></span>
+        projects = <span><Link onClick={() => handleBodyClick('projects')}id='project'>Projects</Link></span>
         break
     case 'resume':
-        resume = <span><p onClick={() => handleBodyClick('resume')}id='resume'>Resume</p></span>
+        resume = <span><Link onClick={() => handleBodyClick('resume')}id='resume'>Resume</Link></span>
         break
     // case 'contact':
     //     contact = <span><p onClick={() => handleBodyClick('contact')}id='contact'>Contact</p></span>
