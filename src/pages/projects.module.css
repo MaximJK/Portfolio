@@ -1,15 +1,11 @@
 .projects{
-display: flex;
-font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-    margin-top: 3vh;
+   display: flex;
+   font-family: 'Roboto', sans-serif;
+   font-weight: 400;
+   font-size: 16px;
+   margin-top: 3vh;
 }
 
-.projectbox > p{
-    
-    /* text-align: center; */
-}
 
 .type{
     width: 25%;
@@ -23,20 +19,8 @@ font-family: 'Roboto', sans-serif;
 .type > p{
     margin-bottom: 22vh;
 }
-.op{
-   /* width:35%; */
 
-  
-}
 
-.sema{
-    /* width:35%; */
-    
-}
- .openbook{
-    /* width:35%; */
-    
- }
  .projectBox{
     border-bottom: 1px solid #ffffff4f;
     margin-bottom: 5vh;

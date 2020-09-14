@@ -3,18 +3,16 @@
     text-align: center;
 }
 .container{
-    width: 100%;
-    text-align: center;
-    position: relative;
-    margin-top: 4vh;
+  width: 100%;
+  text-align: center;
+  position: relative;
+  margin-top: 4vh;
   margin-bottom: 2vh;
     
 }
 .overlay {
-    max-width: 70%;
-    height: auto;
-  /* margin-top: 8vh; */
-  /* margin-bottom: 2vh; */
+  max-width: 70%;
+  height: auto;
   opacity: 0;
   position: absolute;
   top: 0;

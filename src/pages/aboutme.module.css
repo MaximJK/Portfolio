@@ -7,18 +7,7 @@
     padding-top: 2vh;
     line-height: 3.5vh;
 }
- .aboutme > p{
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-    padding-right: 4vh;
-    padding-left: 4vh;
-    padding-top: 2vh;
-    line-height: 3.5vh;
-}
-.aboutme > p:nth-child(2){
-    /* text-align: center; */
-}
+
 
 .aboutme > ul{
     list-style: none;
@@ -26,8 +15,8 @@
     font-weight: 400;
     font-size: 16px;
     text-align: center;
-    margin-top: 3vh;
     margin-right: 5vh;
+    margin: 0 5vh 0 0;
 }
 
 .aboutme > ul > li >a{
@@ -39,12 +28,5 @@ text-decoration: underline;
     margin-right: auto;
     width: 35%;
     display: block;
-    margin-top: 1vh;
-    /* padding-right: 4vh; */
-    /* padding-left: 4vh; */
-    /* padding-top: 2vh; */
-    
-}
-.linkId{
-    /* color: rgb(16, 219, 242); */
+
 }

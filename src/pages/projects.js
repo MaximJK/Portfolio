@@ -4,7 +4,6 @@ import op from "../../static/oplogo.png";
 import sema from "../../static/semapreview.png";
 import openbook from "../../static/openbookp.png";
 import Header from "../components/header/header";
-import Footer from "../components/footer/footer";
 import Links from "../components/links/links";
 
 export default function Projects(props) {
@@ -46,7 +45,7 @@ export default function Projects(props) {
   </div>
 
 </div>
-  <Footer />
+  {/* <Footer /> */}
 <Links content={body} setBody={setBody}/>
 </div>
 </div>

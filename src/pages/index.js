@@ -2,7 +2,6 @@ import React, { useState } from "react";
 // import { Link } from "gatsby";
 import Header from "../components/header/header";
 import Links from "../components/links/links";
-import Footer from "../components/footer/footer";
 import { Helmet } from "react-helmet";
 import aboutmeStyles from "./aboutme.module.css";
 import headshot from "../../static/headshot.png";
@@ -22,6 +21,7 @@ export default function Home() {
 
     <div className='flex'>
     <div className='grid'>
+    {/* <Footer /> */}
       <Header content={body} setBody={setBody}/>
       {/* <Link to="/contact/">Contact</Link> */}
       
@@ -44,7 +44,6 @@ export default function Home() {
   </div>
 
     </div>
-      <Footer />
     <Links content={body} setBody={setBody}/>
     </div>
     </div>

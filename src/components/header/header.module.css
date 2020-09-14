@@ -1,25 +1,22 @@
 .header{
-    border-bottom: 2px solid rgb(220, 220, 220);
-    padding-left: 3vh;
+    /* border-bottom: 2px solid rgb(220, 220, 220); */
+    /* padding-left: 3vh; */
     margin: 0;
-    padding-top: 3vh;
+    /* padding-top: 3vh; */
     
 }
+
 .header > div {
-    margin-bottom: 4.5vh;
-
-
-}
-.header > div > p {
-    margin: 0;
-    color: #c02045;
-    font-family: 'Vollkorn', serif;
-    font-size: 3.75em;
-    padding: 0;
-    height: 1em;
-    background: -webkit-radial-gradient(circle,rgb(166 186 189) 0,rgb(182 134 134) 35%,rgb(113 113 128) 100%);;
-    /* background: -webkit-radial-gradient(circle, rgb(56, 147, 165) 0%, rgb(210, 128, 128) 35%, rgb(88, 88, 123) 100%); */
-    background-clip: text;
-  -webkit-text-fill-color: transparent;
   cursor: pointer;
+  display: flex;
+    justify-content: center;
+
 }
+.header > div > img {
+    width: 95%
+
+}
+.header > div > img:hover {
+    filter: invert();
+    transition: filter 1s;
+  }

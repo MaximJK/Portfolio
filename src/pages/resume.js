@@ -2,7 +2,6 @@ import React, { useState } from "react"
 import { Helmet } from "react-helmet";
 import resumeStyles from "./resume.module.css";
 import Header from "../components/header/header";
-import Footer from "../components/footer/footer";
 import Links from "../components/links/links";
 
 export default function Resume(props) {
@@ -36,7 +35,7 @@ export default function Resume(props) {
         <a href= 'MaxKoiwaiResume.pdf' download> Download</a>
         </div>
 </div>
- <Footer />
+ {/* <Footer /> */}
  <Links content={body} setBody={setBody}/>
  </div>
 </div>

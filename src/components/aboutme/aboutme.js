@@ -1,6 +1,7 @@
 import React from "react"
 import aboutmeStyles from "./aboutme.module.css"
 import headshot from "../../../static/headshot.png"
+
 export default function Aboutme(props) {
   return (
      <div className={aboutmeStyles.aboutme}>
@@ -17,7 +18,7 @@ export default function Aboutme(props) {
       <br></br>
       <li className={aboutmeStyles.linkId}>Git: <a href="https://github.com/MaximJK"  target="_blank">@maximjk</a></li>
     </ul>
-<br></br>
+
     <img src={headshot}></img>
   </div>
   )

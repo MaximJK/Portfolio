@@ -5,12 +5,10 @@
     
     margin-top: 10%;
 }
-.links > div {
-    /* margin-left: 4vh; */
-}
+
 .links > div > span > a{
     
-    color: #000000;
+    color: #f2f2f2;
     height: 1vh;
     text-decoration: line-through;
     transition: color .33s ease;
@@ -25,7 +23,7 @@
 
 .links > div > a{
     /* font-size: 3rem; */
-    color: #090909;
+    color: #f2f2f2;
     height: 1vh;
     /* text-decoration: line-through; */
     transition: color .33s ease;
@@ -33,12 +31,12 @@
     display: block;
 }
 .links > div > a:hover{
-    color: rgb(10, 252, 30)
+    color: #00ff5d
 }
 .links > div > a {
     height: 1vh;
 
-    color: #090909;
+    color: #f2f2f2;
     transition: color .33s ease;
     cursor: pointer;
     margin-block-start: 1em;
@@ -55,8 +53,8 @@
     cursor: pointer;
 } */
 .links > div > a:hover{
-    color: rgb(10, 252, 30)
+    color: #00ff5d
 }
 .links > div > span > a:hover{
-    color: rgb(10, 252, 30)
+    color: #00ff5d
 }
