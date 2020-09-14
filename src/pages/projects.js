@@ -39,7 +39,7 @@ export default function Projects(props) {
     <p className={projectsStyles.title}>OpenBook</p>
     <a href="https://openbook-aa.herokuapp.com/#/" className="" target="_blank"><img src={openbook} className={projectsStyles.openbook}></img></a>
     <a href="https://openbook-aa.herokuapp.com/#/" className="" target="_blank">live</a> | <a href="https://github.com/MaximJK/OpenBook" className="" target="_blank">git</a>
-      <p>Full stack literary social cataloging website, inspired by goodReads. Built on Rails/React.</p>
+      <p>Full stack literary social cataloging web application, inspired by goodReads. Built on Rails/React.</p>
       </div>
       </div>
   </div>

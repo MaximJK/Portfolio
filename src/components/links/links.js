@@ -17,16 +17,16 @@ export default function Links(props) {
   
   switch(props.content) {
     case 'aboutme':
-        about = <span><Link onClick={() => handleBodyClick('aboutme') }id='aboutme'>About</Link></span>
+        about = <span><Link to='/' onClick={() => handleBodyClick('aboutme') }id='aboutme'>About</Link></span>
         break
     case 'projects':
-        projects = <span><Link onClick={() => handleBodyClick('projects')}id='project'>Projects</Link></span>
+        projects = <span><Link to='/projects' onClick={() => handleBodyClick('projects')}id='project'>Projects</Link></span>
         break
     case 'resume':
-        resume = <span><Link onClick={() => handleBodyClick('resume')}id='resume'>Resume</Link></span>
+        resume = <span><Link to='/resume' onClick={() => handleBodyClick('resume')}id='resume'>Resume</Link></span>
         break
     default:
-        about = <span><Link onClick={() => handleBodyClick('aboutme') }id='aboutme'>About</Link></span>
+        about = <span><Link to='/' onClick={() => handleBodyClick('aboutme') }id='aboutme'>About</Link></span>
 
     // case 'contact':
     //     contact = <span><p onClick={() => handleBodyClick('contact')}id='contact'>Contact</p></span>
