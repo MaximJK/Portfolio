@@ -5,26 +5,7 @@
  */
 
 module.exports = {
-  plugins: [`gatsby-plugin-react-helmet`, `gatsby-transformer-sharp`, `gatsby-plugin-sharp`,
-  // {
-  // resolve: `gatsby-source-filesystem`,
-  //     options: {
-  //       name: `images`,
-  //       path: path.join(__dirname, `src`, `images`),
-  //     },
-  //   }
-
-    //  {
-    //    resolve: `gatsby-plugin-prefetch-google-fonts`,
-    //    options: {
-    //      fonts: [
-    //        {
-    //          family: `Vollkorn`,
-    //          variants: [`600`, `500`]
-    //        },
-           
-    //      ],
-    //    },
-    //  }
+  plugins: [`gatsby-plugin-react-helmet`, `gatsby-transformer-sharp`, `gatsby-plugin-sharp`,`gatsby-plugin-remove-trailing-slashes`,
+  
    ]
  }
