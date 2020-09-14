@@ -25,6 +25,9 @@ export default function Links(props) {
     case 'resume':
         resume = <span><Link onClick={() => handleBodyClick('resume')}id='resume'>Resume</Link></span>
         break
+    default:
+        about = <span><Link onClick={() => handleBodyClick('aboutme') }id='aboutme'>About</Link></span>
+
     // case 'contact':
     //     contact = <span><p onClick={() => handleBodyClick('contact')}id='contact'>Contact</p></span>
     //     break

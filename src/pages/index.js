@@ -40,7 +40,7 @@ export default function Home() {
       <li className={aboutmeStyles.linkId}>Git: <a href="https://github.com/MaximJK"  target="_blank">@maximjk</a></li>
     </ul>
 <br></br>
-    <img src={headshot}></img>
+    <img src={headshot} alt='maxkoiwai'></img>
   </div>
 
     </div>

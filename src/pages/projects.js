@@ -22,22 +22,22 @@ export default function Projects(props) {
   <div className={projectsStyles.projects}>
           <div>
             <div className={projectsStyles.projectBox}>
-            <a href="https://github.com/MaximJK/Op." className="" target="_blank"> <img src={op} className={projectsStyles.op}></img></a>
    <p className={projectsStyles.title}>Op.</p>
+            <a href="https://github.com/MaximJK/Op." className="" target="_blank"> <img src={op} className={projectsStyles.op}></img></a>
    current project | <a href="https://github.com/MaximJK/Op." className="" target="_blank"> git</a>  
    <p>Social art production platform built on Django/React.</p>
    <br></br>
    </div>
    <div className={projectsStyles.projectBox}>
-   <a href="https://maximjk.github.io/Sema/" className="" target="_blank"><img src={sema} className={projectsStyles.sema}></img></a>
     <p className={projectsStyles.title}>Sema</p>
+   <a href="https://maximjk.github.io/Sema/" className="" target="_blank"><img src={sema} className={projectsStyles.sema}></img></a>
     <a href="https://maximjk.github.io/Sema/" className="" target="_blank">live</a> | <a href="https://github.com/MaximJK/Sema" className="" target="_blank">git</a>
     <p>Node.js poetry reader applet.</p>
     <br></br>
     </div>
     <div className={projectsStyles.projectBox}>
-    <a href="https://openbook-aa.herokuapp.com/#/" className="" target="_blank"><img src={openbook} className={projectsStyles.openbook}></img></a>
     <p className={projectsStyles.title}>OpenBook</p>
+    <a href="https://openbook-aa.herokuapp.com/#/" className="" target="_blank"><img src={openbook} className={projectsStyles.openbook}></img></a>
     <a href="https://openbook-aa.herokuapp.com/#/" className="" target="_blank">live</a> | <a href="https://github.com/MaximJK/OpenBook" className="" target="_blank">git</a>
       <p>Full stack literary social cataloging website, inspired by goodReads. Built on Rails/React.</p>
       </div>

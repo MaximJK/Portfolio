@@ -6,7 +6,7 @@ export default function Header(props) {
     props.setBody(comp);
   }
 
-  let header = <div onClick={() => handleBodyClick('aboutme')} onKeyDown={() => handleBodyClick('aboutme')} id='aboutme'><img src="maxlogot3dtest.png"></img></div>
+  let header = <div onClick={() => handleBodyClick('aboutme')} onKeyDown={() => handleBodyClick('aboutme')} id='aboutme'><img src="maxlogot3dtest.png" alt='maxkoiwai3d'></img></div>
   return (
      <div className={headerStyles.header}>
     {header}
