@@ -5,13 +5,21 @@ import sema from "../../static/semapreview.png";
 import openbook from "../../static/openbookp.png";
 import Header from "../components/header/header";
 import Links from "../components/links/links";
+import { Helmet } from "react-helmet";
 
 export default function Projects(props) {
   const [body, setBody] = useState('projects');
 
   return (
     <div className='grad'>
-
+      <Helmet>
+        <title>Max Koiwai</title>
+        <meta property='og:title' content='Max Koiwai'/>
+        <meta property='og:image' content='https://i.ibb.co/Wsch73L/Screen-Shot-2020-07-10-at-6-24-25-PM.png'/>
+        <meta property='og:description' content='Max Koiwai'/>
+        <meta property='og:url' content='https://maximjk.com/' />
+        <meta name="viewport" content="width=device-width, initial-scale=1"></meta>
+        </Helmet>
 <div className='bg'></div>
 
 <div className='flex'>
