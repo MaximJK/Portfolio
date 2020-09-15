@@ -34,15 +34,23 @@ export default function Links(props) {
   }
 
   return (
-     <div className={linksStyles.links}>
-        <div>
-
- {about}
- {projects}
- {resume}
- {contact}
-  
+    <div className={linksStyles.links}>
+        
+      <ul>
+        <li>
+        {about}
+        </li>
+        <li>
+        {projects}
+        </li>
+        <li>
+        {resume}
+        </li>
+        <li>
+        {contact}
+        </li>
+      </ul>
+    
     </div>
-  </div>
   )
 }

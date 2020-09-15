@@ -6,43 +6,42 @@
     margin-top: 10%;
 }
 
-.links > div > span > a{
+.links > ul {
+    list-style: none;
+}
+
+.links > ul > li{
+    line-height: 1.15em;
+}
+.links  > ul > li > span > a{
     
     color: #f2f2f2;
     height: 1vh;
     text-decoration: line-through;
     transition: color .33s ease;
     cursor: pointer;
-    display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
+
 
 }
 
-.links > div > a{
+.links >  ul > li > a{
     /* font-size: 3rem; */
     color: #f2f2f2;
     height: 1vh;
     /* text-decoration: line-through; */
     transition: color .33s ease;
     cursor: pointer;
-    display: block;
+    
 }
-.links > div > a:hover{
+.links   > ul > li > a:hover{
     color: #00ff5d
 }
-.links > div > a {
+.links > ul > li > a {
     height: 1vh;
 
     color: #f2f2f2;
     transition: color .33s ease;
     cursor: pointer;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
 
 }
 /* .links > div > a{
@@ -52,9 +51,28 @@
     transition: color .33s ease;
     cursor: pointer;
 } */
-.links > div > a:hover{
+.links > ul > li > a:hover{
     color: #00ff5d
 }
-.links > div > span > a:hover{
+.links > ul > li > span > a:hover{
     color: #00ff5d
+}
+@media only screen and (max-width: 650px) {
+    .links{
+        height: 100%;
+        font-size: 3.5vw;
+        margin-top: 10%;
+        width: fit-content;
+    }
+    .links ul{
+    list-style: none;
+    display: flex;
+    writing-mode: vertical-rl;
+    padding: 0;
+    justify-content: space-between;
+    /* margin: -3em; */
+    height: 80%;
+    font-size: 1.75em;
+    margin: 0;
+    }
 }
