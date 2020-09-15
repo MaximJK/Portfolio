@@ -2,7 +2,7 @@
     height: 100%;
     width: 28%;
     font-size: 3.5vw;
-    
+    background-color: #313131;
     margin-top: 10%;
 }
 
@@ -45,7 +45,7 @@
         height: 100%;
         font-size: 3.5vw;
         margin-top: 10%;
-        width: auto;
+        width: fit-content;
         background-color: #313131;
     }
     .links > ul{
