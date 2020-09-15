@@ -64,15 +64,14 @@
         margin-top: 10%;
         width: fit-content;
     }
-    .links ul{
-    list-style: none;
-    display: flex;
-    writing-mode: vertical-rl;
-    padding: 0;
-    justify-content: space-between;
-    /* margin: -3em; */
-    height: 80%;
-    font-size: 1.75em;
-    margin: 0;
+    .links > ul{
+        list-style: none;
+        display: flex;
+        writing-mode: vertical-rl;
+        padding: 0;
+        justify-content: space-between;
+        height: 80%;
+        font-size: 1.75em;
+        margin: 0;
     }
 }
