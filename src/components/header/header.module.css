@@ -9,7 +9,7 @@
 .header > div {
   cursor: pointer;
   display: flex;
-    justify-content: center;
+  justify-content: center;
 
 }
 .header > div > img {

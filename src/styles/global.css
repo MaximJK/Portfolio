@@ -27,7 +27,6 @@ body{
     /* height: 100vh; */
     margin: 0;
     background: #313131;
-    
     height: 97vh;
 
 }
@@ -78,7 +77,7 @@ a{
 
 @media only screen and (max-width: 600px) {
  .grid{
-     width: auto;
+     width: 100%;
      margin: 0;
  }
 
