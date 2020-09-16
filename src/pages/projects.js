@@ -13,12 +13,12 @@ export default function Projects(props) {
   return (
     <div className='grad'>
       <Helmet>
-        <title>Max Koiwai</title>
+      <title>Max Koiwai</title>
         <meta property='og:title' content='Max Koiwai'/>
-        <meta property='og:image' content='https://i.ibb.co/Wsch73L/Screen-Shot-2020-07-10-at-6-24-25-PM.png'/>
+        <meta property='og:image' content='https://maximjk.com/portprev.png'/>
         <meta property='og:description' content='Max Koiwai'/>
         <meta property='og:url' content='https://maximjk.com/' />
-        <meta name="viewport" content="width=device-width, initial-scale=1"></meta>
+        <meta name="viewport" content="width=device-width, maximum-scale=1"/>
         </Helmet>
 <div className='bg'></div>
 
