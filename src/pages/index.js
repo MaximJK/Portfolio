@@ -13,7 +13,7 @@ export default function Home() {
         <Helmet>
         <title>Max Koiwai</title>
         <meta property='og:title' content='Max Koiwai'/>
-        <meta property='og:image' content={prev}/>
+        <meta property='og:image' content='https://i.ibb.co/fxMrJ6v/portPrev.png'/>
         <meta property='og:description' content='Max Koiwai'/>
         <meta property='og:url' content='https://maximjk.com/' />
         <meta name="viewport" content="width=device-width, maximum-scale=1"/>
