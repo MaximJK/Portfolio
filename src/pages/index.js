@@ -1,10 +1,10 @@
 import React, { useState } from "react";
-// import { Link } from "gatsby";
 import Header from "../components/header/header";
 import Links from "../components/links/links";
 import { Helmet } from "react-helmet";
 import aboutmeStyles from "./aboutme.module.css";
 import headshot from "../../static/headshot.png";
+import prev from "../../static/portPrev.png";
 
 export default function Home() {
   const [body, setBody] = useState('aboutme');
@@ -13,7 +13,7 @@ export default function Home() {
         <Helmet>
         <title>Max Koiwai</title>
         <meta property='og:title' content='Max Koiwai'/>
-        <meta property='og:image' content='https://maximjk.com/portprev.png'/>
+        <meta property='og:image' content={prev}/>
         <meta property='og:description' content='Max Koiwai'/>
         <meta property='og:url' content='https://maximjk.com/' />
         <meta name="viewport" content="width=device-width, maximum-scale=1"/>

@@ -6,6 +6,7 @@ import openbook from "../../static/openbookp.png";
 import Header from "../components/header/header";
 import Links from "../components/links/links";
 import { Helmet } from "react-helmet";
+import prev from "../../static/portPrev.png";
 
 export default function Projects(props) {
   const [body, setBody] = useState('projects');
@@ -15,7 +16,7 @@ export default function Projects(props) {
       <Helmet>
       <title>Max Koiwai</title>
         <meta property='og:title' content='Max Koiwai'/>
-        <meta property='og:image' content='https://maximjk.com/portprev.png'/>
+        <meta property='og:image' content={prev}/>
         <meta property='og:description' content='Max Koiwai'/>
         <meta property='og:url' content='https://maximjk.com/' />
         <meta name="viewport" content="width=device-width, maximum-scale=1"/>
