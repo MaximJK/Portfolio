@@ -12,11 +12,12 @@
   justify-content: center;
 
 }
-.header > div > img {
-    width: 95%
+.header > div > a > img {
+    width: 95%;
+
 
 }
-.header > div > img:hover {
+.header > div > a > img:hover {
     filter: invert();
     transition: filter 1s;
   }

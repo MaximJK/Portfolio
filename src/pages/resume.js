@@ -3,6 +3,7 @@ import { Helmet } from "react-helmet";
 import resumeStyles from "./resume.module.css";
 import Header from "../components/header/header";
 import Links from "../components/links/links";
+import thumb from "../../static/ResumeThumb.png";
 
 export default function Resume(props) {
   const [body, setBody] = useState('resume');
@@ -26,7 +27,7 @@ export default function Resume(props) {
      <div className={resumeStyles.resume}>
        <a href="MaxKoiwaiResume.pdf" >
         <div className={resumeStyles.container}>
-        <img src='ResumeThumb.png' alt='resume' className={resumeStyles.thumb}></img>
+        <img src={thumb} alt='resume' className={resumeStyles.thumb}></img>
         <div className={resumeStyles.overlay}>
           <div class={resumeStyles.text}>Resume</div>
         </div>
