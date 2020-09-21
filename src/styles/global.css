@@ -11,7 +11,7 @@ body{
     margin: 0;
     font-family: 'Vollkorn', serif;
     font-weight: 600;
-    height: 100vh;
+    height: 100%;
     position: relative;
     overflow: hidden;
 }
@@ -76,6 +76,6 @@ a{
     
  }
  .grad{
-     /* border: none; */
+     border: none;
  }
 }
