@@ -20,25 +20,26 @@ body{
     /* background-repeat: no-repeat; */
     /* filter: blur(8px);
     -webkit-filter: blur(8px); */
-    height: 100%;
-    padding: 1vw;
+    height: 100vh;
+    padding: 1vh;
 }
 .grad{
-    /* height: 100vh; */
+    /* height: 100%; */
     margin: 0;
     background: #313131;
-    height: 97vh;
+    height: 98vh;
 
 }
 .flex{
     display: flex;
     justify-content: space-between;
     z-index: 2;
+    height: 100%;
    
 }
 .grid {
     width: 45%;
-    height: 97vh;
+    height: 100%;
     margin-left: 25%;
     overflow: auto;
     background: #bdbdbd;   /* background: radial-gradient(circle at 101% 40%, rgb(40 130 185) 20%, rgb(79 74 65) 40%, rgb(246 238 234) 75%); */
@@ -77,11 +78,10 @@ a{
 
 @media only screen and (max-width: 600px) {
  .grid{
-     width: 100%;
-     margin: 0;
+    width: 100%;
+    margin: 0;
  }
  body{
     background-color: #313131;
  }
-
 }

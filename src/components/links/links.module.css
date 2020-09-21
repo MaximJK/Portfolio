@@ -17,7 +17,7 @@
     
     color: #f2f2f2;
     height: 1vh;
-    text-decoration: line-through;
+    text-decoration: underline;
     transition: color .33s ease;
     cursor: pointer;
 

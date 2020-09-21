@@ -17,7 +17,7 @@ export default function Resume(props) {
     <meta property='og:url' content='https://maximjk.com/' />
     <meta name="viewport" content="width=device-width, initial-scale=1"></meta>
     </Helmet>
-<div className='bg'></div>
+
 
 <div className='flex'>
 <div className='grid'>

@@ -18,7 +18,7 @@ export default function Home() {
         <meta property='og:url' content='https://maximjk.com/' />
         <meta name="viewport" content="width=device-width, maximum-scale=1"/>
         </Helmet>
-    <div className='bg'></div>
+    
 
     <div className='flex'>
     <div className='grid'>
