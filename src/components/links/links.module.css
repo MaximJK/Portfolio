@@ -41,21 +41,18 @@
 }
 @media only screen and (max-width: 650px) {
     .links {
-        /* height: 100%; */
-        font-size: 3.5vw;
-        margin-top: 10%;
-        width: fit-content;
-        background-color: #313131;
+        flex: 0;
+        height: 100%;
     }
     .links > ul{
         list-style: none;
         display: flex;
-        writing-mode: vertical-rl;
-        padding: 0;
+        -ms-writing-mode: tb-rl;
+        writing-mode: tb;
+        
         justify-content: space-between;
         height: 80%;
         font-size: 1.75em;
-        margin: 0;
-        background-color: #313131
+        margin: 1vw;
     }
 }

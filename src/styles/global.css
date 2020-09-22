@@ -71,11 +71,12 @@ a{
 
 @media only screen and (max-width: 650px) {
  .grid{
-    width: 100%;
+    /* width: 100%; */
     margin: 0;
+    flex: 1;
     
  }
  .grad{
-     /* border:  none; */
+     border:  none;
  }
 }
