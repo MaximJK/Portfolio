@@ -22,7 +22,7 @@ body{
     margin: 0;
     background: #313131;
     /* height: 98vh; */
-    border: .75em solid #ebedec;
+    border: 2px solid #ebedec;
     position: absolute;
     width: 100%;
 }
