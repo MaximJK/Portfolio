@@ -17,7 +17,7 @@
 }
 .links  > ul > li > span > a{
     
-    color: #f2f2f2;
+    color: #E8DEE0;
     height: 1vh;
     text-decoration: underline;
     transition: color .33s ease;
@@ -30,17 +30,29 @@
 
 .links > ul > li > a {
     height: 1vh;
-    color: #f2f2f2;
+    color: #E8DEE0;
     transition: color .33s ease;
     cursor: pointer;
 
 }
 
-.links > ul > li > a:hover{
-    color: #00ff5d
+.links > ul > li:hover{
+    transform: scale(1, -1);
+    /* color: #18f918; */
+    -moz-transform: scale(1, -1);
+    -webkit-transform: scale(1, -1);
+    -o-transform: scale(1, -1);
+    -ms-transform: scale(1, -1);
+    transform: scale(1, -1);
 }
 .links > ul > li > span > a:hover{
-    color: #00ff5d
+    transform: scale(1, -1);
+    /* color: #18f918; */
+    -moz-transform: scale(1, -1);
+    -webkit-transform: scale(1, -1);
+    -o-transform: scale(1, -1);
+    -ms-transform: scale(1, -1);
+    transform: scale(1, -1);
 }
 @media only screen and (max-width: 650px) {
     .links {

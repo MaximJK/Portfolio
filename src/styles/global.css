@@ -15,6 +15,7 @@ body{
     height: 100%;
     position: relative;
     overflow: hidden;
+    color: #e1f6e9;
     
 }
 .grad{
@@ -38,7 +39,7 @@ body{
     height: 100%;
     margin-left: 27.5%;
     overflow: auto;
-    background: #bdbdbd;   /* background: radial-gradient(circle at 101% 40%, rgb(40 130 185) 20%, rgb(79 74 65) 40%, rgb(246 238 234) 75%); */
+    background: #67676e;   /* background: radial-gradient(circle at 101% 40%, rgb(40 130 185) 20%, rgb(79 74 65) 40%, rgb(246 238 234) 75%); */
     overflow-y: scroll;
     scrollbar-width: none; /* Firefox */
     -ms-overflow-style: none;  /* Internet Explorer 10+ */
@@ -59,17 +60,17 @@ body{
 
 }
 .link:hover {
-    color: #00ff5d;
+    color: thistle;
     transition: color .33s ease;
 }
 a:hover{
-    color: #00ff5d;
+    color: #f9f9f9;
     transition: color .33s ease;
 }
 a{
     text-decoration: none;
     margin: 0;
-    color: #f9f9f9;
+    color: #E8DEE0;
 }
 
 @media only screen and (max-width: 650px) {
