@@ -34,9 +34,9 @@ body{
    
 }
 .grid {
-    width: 50%;
+    width: 45%;
     height: 100%;
-    margin-left: 25%;
+    margin-left: 27.5%;
     overflow: auto;
     background: #bdbdbd;   /* background: radial-gradient(circle at 101% 40%, rgb(40 130 185) 20%, rgb(79 74 65) 40%, rgb(246 238 234) 75%); */
     overflow-y: scroll;
