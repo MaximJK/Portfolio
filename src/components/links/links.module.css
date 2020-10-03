@@ -14,13 +14,17 @@
 
 .links > ul > li{
     line-height: 1.15em;
+    width: fit-content;
+    height: fit-content;
+    transition: all 0.15s;
+    color: #E8DEE0;
 }
 .links  > ul > li > span > a{
     
-    color: #E8DEE0;
+    color: inherit;
     height: 1vh;
     text-decoration: underline;
-    transition: color .33s ease;
+    /* transition: color .33s ease; */
     cursor: pointer;
 
 
@@ -30,30 +34,31 @@
 
 .links > ul > li > a {
     height: 1vh;
-    color: #E8DEE0;
-    transition: color .33s ease;
+    color: inherit;
+    /* transition: color .33s ease; */
     cursor: pointer;
 
 }
 
 .links > ul > li:hover{
     transform: scale(1, -1);
-    /* color: #18f918; */
+    color: #85f185;
     -moz-transform: scale(1, -1);
     -webkit-transform: scale(1, -1);
     -o-transform: scale(1, -1);
     -ms-transform: scale(1, -1);
     transform: scale(1, -1);
+    transition: all 0.15s;
 }
-.links > ul > li > span > a:hover{
+/* .links > ul > li > span > a:hover{
     transform: scale(1, -1);
     /* color: #18f918; */
-    -moz-transform: scale(1, -1);
+    /* -moz-transform: scale(1, -1);
     -webkit-transform: scale(1, -1);
     -o-transform: scale(1, -1);
     -ms-transform: scale(1, -1);
-    transform: scale(1, -1);
-}
+    transform: scale(1, -1); */
+
 @media only screen and (max-width: 650px) {
     .links {
         flex: 0;
