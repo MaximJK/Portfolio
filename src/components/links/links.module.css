@@ -17,6 +17,8 @@
     width: fit-content;
     height: fit-content;
     transition: all 0.15s;
+    -webkit-transition: -webkit-transform 0.15s;
+    -moz-transition: all 0.15s;
     color: #E8DEE0;
 }
 .links  > ul > li > span > a{
@@ -41,14 +43,16 @@
 }
 
 .links > ul > li:hover{
-    transform: scale(1, -1);
+    /* transform: scale(1, -1); */
     color: #85f185;
-    -moz-transform: scale(1, -1);
+    /* -moz-transform: scale(1, -1);
     -webkit-transform: scale(1, -1);
     -o-transform: scale(1, -1);
     -ms-transform: scale(1, -1);
-    transform: scale(1, -1);
-    transition: all 0.15s;
+    transform: scale(1, -1); */
+    -webkit-transition: -webkit-transform 0.15s;
+    -moz-transition: all 0.15s;
+    transition: all 0.15s ease;
 }
 /* .links > ul > li > span > a:hover{
     transform: scale(1, -1);
