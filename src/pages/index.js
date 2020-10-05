@@ -28,8 +28,8 @@ export default function Home() {
       
       <div className={aboutmeStyles.aboutme}>
         {/* <h3>About Me</h3> */}
-    <p>Hello! I'm a software engineer based in the USA. I code in Python, JavaScript, Ruby, CSS3 and HTML5.
-      Some of my favorite technologies to work with are React, Django, Rails, Node.js, PostgreSQL. When I'm not programming I'm painting, writing and reading.</p>
+    <p>Hello! I'm a software engineer based in the USA. I code in <span>Python</span>, <span>JavaScript</span>, <span>Ruby</span>, <span>CSS3</span> and <span>HTML5</span>.
+      Some of my favorite technologies to work with are <span>React</span>, <span>Django</span>, <span>Rails</span>, <span>Node.js</span>, <span>PostgreSQL</span>. When I'm not programming I'm painting, writing and reading.</p>
     
     <p >Let's code together. Feel free to reach out:	</p>
     

@@ -1,11 +1,14 @@
  .aboutme > p{
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 1.25em;
     padding-right: 4vh;
     padding-left: 4vh;
     padding-top: 2vh;
     line-height: 3.5vh;
+}
+.aboutme > p >span{
+    color: #f28686;
 }
 
 
@@ -13,7 +16,7 @@
     list-style: none;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 1.25em;
     text-align: center;
     margin-right: 5vh;
     margin: 0 5vh 0 0;
