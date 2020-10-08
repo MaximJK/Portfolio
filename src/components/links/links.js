@@ -13,7 +13,7 @@ export default function Links(props) {
   // let resume = <p onClick={() => handleBodyClick('resume')}id='resume'>Resume</p>
   // let resume = <p><a href="MaxKoiwaiResume.pdf" >Resume</a></p>
   // let contact = <p onClick={() => handleBodyClick('contact')}id='contact'>Contact</p>
-  let contact = <a href="mailto:maxjacobkoiwai@gmail.com"  target="_blank">Contact</a>
+  let contact = <Link to='/contact' onClick={() => handleBodyClick('contact')}id='contact'>Contact</Link>
   
   switch(props.content) {
     case 'aboutme':
@@ -24,6 +24,9 @@ export default function Links(props) {
         break
     case 'resume':
         resume = <span><Link to='/resume' onClick={() => handleBodyClick('resume')}id='resume'>Resume</Link></span>
+        break
+    case 'contact':
+        contact = <span><Link to='/contact' onClick={() => handleBodyClick('contact')}id='contact'>Contact</Link></span>
         break
     default:
         about = <span><Link to='/' onClick={() => handleBodyClick('aboutme') }id='aboutme'>About</Link></span>

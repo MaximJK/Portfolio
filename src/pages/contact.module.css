@@ -1,0 +1,7 @@
+.contact{
+    display: flex;
+    justify-content: space-around;
+}
+.icons{
+    font-size: 3em;
+}

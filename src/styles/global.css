@@ -8,6 +8,10 @@ html{
 * {
     box-sizing: border-box;
   }
+
+:root{
+    --main-bg-color: #212121;
+}
 body{
     margin: 0;
     font-family: 'Vollkorn', serif;
@@ -17,11 +21,12 @@ body{
     overflow: hidden;
     color: #e1f6e9;
     
+    
 }
 .grad{
     height: 100%;
     margin: 0;
-    background: #313131;
+    background: var(--main-bg-color);
     /* height: 98vh; */
     border: 2px solid #ebedec;
     position: absolute;
@@ -39,7 +44,7 @@ body{
     height: 100%;
     margin-left: 27.5%;
     overflow: auto;
-    background: #67676e;   /* background: radial-gradient(circle at 101% 40%, rgb(40 130 185) 20%, rgb(79 74 65) 40%, rgb(246 238 234) 75%); */
+    background: #3f3f42;   /* background: radial-gradient(circle at 101% 40%, rgb(40 130 185) 20%, rgb(79 74 65) 40%, rgb(246 238 234) 75%); */
     overflow-y: scroll;
     scrollbar-width: none; /* Firefox */
     -ms-overflow-style: none;  /* Internet Explorer 10+ */
@@ -64,13 +69,13 @@ body{
     transition: color .33s ease;
 }
 a:hover{
-    color: #f9f9f9;
+    color: #85f185;
     transition: color .33s ease;
 }
 a{
     text-decoration: none;
     margin: 0;
-    color: #E8DEE0;
+    color: #e8e8e8;
 }
 
 @media only screen and (max-width: 650px) {

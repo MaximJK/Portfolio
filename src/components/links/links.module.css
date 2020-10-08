@@ -3,12 +3,12 @@
     width: 28%;
     font-size: 3.5vw;
     margin-top: 10%;
-    background-color: #313131
+    background-color: var(--main-bg-color)
 }
 
 .links > ul {
     list-style: none;
-    background-color: #313131
+    background-color: var(--main-bg-color)
     
 }
 
@@ -19,7 +19,7 @@
     transition: all 0.15s;
     -webkit-transition: -webkit-transform 0.15s;
     -moz-transition: all 0.15s;
-    color: #E8DEE0;
+    color: #e8e8e8;
 }
 .links  > ul > li > span > a{
     
