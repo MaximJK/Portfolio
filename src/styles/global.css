@@ -19,7 +19,7 @@ body{
     height: 100%;
     position: relative;
     overflow: hidden;
-    color: #e1f6e9;
+    color: #f6fdf9;;
     
     
 }
@@ -57,6 +57,9 @@ body{
 .textSpan{
     background-color: whitesmoke;
 }
+.skill{
+    color: #e6b1b1;
+}
 
 .link {
     color: black;
@@ -69,7 +72,7 @@ body{
     transition: color .33s ease;
 }
 a:hover{
-    color: #85f185;
+    color: #C6EBBE;
     transition: color .33s ease;
 }
 a{

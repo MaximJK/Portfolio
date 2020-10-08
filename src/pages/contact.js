@@ -13,7 +13,7 @@ import {
     faEnvelopeSquare
   } from '@fortawesome/free-solid-svg-icons'
 export default function Contact() {
-  const [body, setBody] = useState('aboutme');
+  const [body, setBody] = useState('contact');
   return (
     <div className='grad'>
         <Helmet>
@@ -29,25 +29,36 @@ export default function Contact() {
     
       <Header content={body} setBody={setBody}/>
       <div className = {contactStyles.contact}>
+      <p >Let's code together. Reach out @	</p>
+      <br/>
+      <div className={contactStyles.iconDiv}>
       <div>
+      <a href="https://github.com/MaximJK"  target="_blank">
       <FontAwesomeIcon className={contactStyles.icons} icon={faGithubSquare}  />
       <br/>
-      GitHub
+      GitHub 
+      </a>
       </div>
       <div>
+      <a href="https://www.linkedin.com/in/maxkoiwai/"  target="_blank">
       <FontAwesomeIcon className={contactStyles.icons} icon={faLinkedin}  />
       <br/>
       LinkedIn
+      </a>
       </div>
       <div>
+      <a href="mailto:maxjacobkoiwai@gmail.com"  target="_blank">
       <FontAwesomeIcon className={contactStyles.icons}  icon={faEnvelopeSquare}  />
       <br/>
       Email
+      </a>
+      </div>
       </div>
       </div>
       </div>
       <Links content={body} setBody={setBody}/>
       </div>
       </div>
+      
       )
       }

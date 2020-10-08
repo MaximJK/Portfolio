@@ -28,18 +28,11 @@ export default function Home() {
       
       <div className={aboutmeStyles.aboutme}>
         {/* <h3>About Me</h3> */}
-    <p>Hello! I'm a software engineer based in the USA. I code in <span>Python</span>, <span>JavaScript</span>, <span>Ruby</span>, <span>CSS3</span> and <span>HTML5</span>.
-      Some of my favorite technologies to work with are <span>React</span>, <span>Django</span>, <span>Rails</span>, <span>Node.js</span>, <span>PostgreSQL</span>. When I'm not programming I'm painting, writing and reading.</p>
+    <p>Hello! I'm a software engineer based in the USA. I code in <span className='skill'>Python</span>, <span className='skill'>JavaScript</span>, <span className='skill'>Ruby</span>, <span className='skill'>CSS3</span> and <span className='skill'>HTML5</span>.
+      Some of my favorite technologies to work with are <span className='skill'>React</span>, <span className='skill'>Django</span>, <span className='skill'>Rails</span>, <span className='skill'>Node.js</span>, <span className='skill'>PostgreSQL</span>. When I'm not programming I'm painting, writing and reading.</p>
     
-    <p >Let's code together. Feel free to reach out:	</p>
     
-    <ul>
-      <li className={aboutmeStyles.linkId}>Email: <a href="mailto:maxjacobkoiwai@gmail.com"  target="_blank">maxjacobkoiwai@gmail.com</a></li>
-      <br></br>
-      <li className={aboutmeStyles.linkId}>LinkedIn: <a href="https://www.linkedin.com/in/maxkoiwai/"  target="_blank">@maxkoiwai</a></li>
-      <br></br>
-      <li className={aboutmeStyles.linkId}>Git: <a href="https://github.com/MaximJK"  target="_blank">@maximjk</a></li>
-    </ul>
+    
 <br></br>
     <img src={headshot} alt='maxkoiwai'></img>
   </div>

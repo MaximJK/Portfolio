@@ -44,7 +44,7 @@
 
 .links > ul > li:hover{
     /* transform: scale(1, -1); */
-    color: #85f185;
+    color: #C6EBBE;
     /* -moz-transform: scale(1, -1);
     -webkit-transform: scale(1, -1);
     -o-transform: scale(1, -1);
@@ -56,7 +56,7 @@
 }
 /* .links > ul > li > span > a:hover{
     transform: scale(1, -1);
-    /* color: #18f918; */
+    /* color: #C6EBBE; */
     /* -moz-transform: scale(1, -1);
     -webkit-transform: scale(1, -1);
     -o-transform: scale(1, -1);

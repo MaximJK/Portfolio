@@ -1,7 +1,13 @@
-.contact{
+.contact {
+    padding-top: 2vh;
+    padding-right: 4vh;
+    padding-left: 4vh;
+}
+.iconDiv{
     display: flex;
     justify-content: space-around;
+    text-align: center;
 }
 .icons{
-    font-size: 3em;
+    font-size: 6em;
 }
