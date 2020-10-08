@@ -1,7 +1,9 @@
 .contact {
+    font-size: 1.25em;
     padding-top: 2vh;
     padding-right: 4vh;
     padding-left: 4vh;
+    text-align: center;
 }
 .iconDiv{
     display: flex;
@@ -9,5 +11,5 @@
     text-align: center;
 }
 .icons{
-    font-size: 6em;
+    font-size: 5em;
 }
