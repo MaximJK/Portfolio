@@ -1,6 +1,6 @@
 .contact {
     font-size: 1.25em;
-    padding-top: 2vh;
+    padding-top: 4vh;
     padding-right: 4vh;
     padding-left: 4vh;
     text-align: center;
@@ -9,6 +9,7 @@
     display: flex;
     justify-content: space-around;
     text-align: center;
+    margin-top: 5vh;
 }
 .icons{
     font-size: 5em;
