@@ -8,12 +8,14 @@ import Links from "../components/links/links";
 import AnimationContainer from "../components/modules/animationContainer";
 import { Helmet } from "react-helmet";
 import prev from "../../static/portPrev.png";
+import  { Breakpoint, BreakpointProvider } from 'react-socks';
 
 export default function Projects(props) {
   const [body, setBody] = useState('projects');
 
   return (
     <div className='grad'>
+      <BreakpointProvider>
       <Helmet>
       <title>Max Koiwai</title>
         <meta property='og:title' content='Max Koiwai'/>
@@ -23,7 +25,9 @@ export default function Projects(props) {
         <meta name="viewport" content="width=device-width, maximum-scale=1"/>
         </Helmet>
 
-        <AnimationContainer/>
+        <Breakpoint medium up>
+		<AnimationContainer/>
+    </Breakpoint>
 <div className='flex'>
 <div className='grid'>
   <Header content={body} setBody={setBody}/>
@@ -51,6 +55,7 @@ export default function Projects(props) {
     <a href="https://openbook-aa.herokuapp.com/#/" className="" target="_blank">live</a> | <a href="https://github.com/MaximJK/OpenBook" className="" target="_blank">git</a>
       <p>Full stack literary social cataloging web application, inspired by goodReads. Built on <span className='skill'>Rails/React</span>.</p>
       </div>
+      
       </div>
   </div>
 
@@ -58,6 +63,7 @@ export default function Projects(props) {
   {/* <Footer /> */}
 <Links content={body} setBody={setBody}/>
 </div>
+</BreakpointProvider>
 </div>
      
   )

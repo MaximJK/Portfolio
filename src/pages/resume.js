@@ -5,12 +5,14 @@ import AnimationContainer from "../components/modules/animationContainer";
 import Header from "../components/header/header";
 import Links from "../components/links/links";
 import thumb from "../../static/ResumeThumb.png";
+import  { Breakpoint, BreakpointProvider } from 'react-socks';
 
 export default function Resume(props) {
   const [body, setBody] = useState('resume');
 
   return (
     <div className='grad'>
+      <BreakpointProvider>
     <Helmet>
     <title>Max Koiwai</title>
     <meta property='og:title' content='Max Koiwai'/>
@@ -19,7 +21,9 @@ export default function Resume(props) {
     <meta property='og:url' content='https://maximjk.com/' />
     <meta name="viewport" content="width=device-width, initial-scale=1"></meta>
     </Helmet>
-    <AnimationContainer/>
+    <Breakpoint medium up>
+		<AnimationContainer/>
+    </Breakpoint>
 
 <div className='flex'>
 <div className='grid'>
@@ -41,6 +45,8 @@ export default function Resume(props) {
  {/* <Footer /> */}
  <Links content={body} setBody={setBody}/>
  </div>
+</BreakpointProvider>
+ 
 </div>
   )
 }

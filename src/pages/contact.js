@@ -5,6 +5,7 @@ import AnimationContainer from "../components/modules/animationContainer";
 import contactStyles from "./contact.module.css";
 import { Helmet } from "react-helmet";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import  { Breakpoint, BreakpointProvider } from 'react-socks';
 import {
     faGithubSquare,
     faLinkedin
@@ -17,6 +18,7 @@ export default function Contact() {
   const [body, setBody] = useState('contact');
   return (
     <div className='grad'>
+      <BreakpointProvider>
         <Helmet>
         <title>Max Koiwai</title>
         <meta property='og:title' content='Max Koiwai'/>
@@ -25,7 +27,9 @@ export default function Contact() {
         <meta property='og:url' content='https://maximjk.com/' />
         <meta name="viewport" content="width=device-width, maximum-scale=1"/>
         </Helmet>
-        <AnimationContainer/>
+        <Breakpoint medium up>
+		<AnimationContainer/>
+    </Breakpoint>
         <div className='flex'>
         <div className='grid'>
     
@@ -60,6 +64,7 @@ export default function Contact() {
       </div>
       <Links content={body} setBody={setBody}/>
       </div>
+      </BreakpointProvider>
       </div>
       
       )

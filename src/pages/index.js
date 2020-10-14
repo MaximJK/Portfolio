@@ -8,6 +8,8 @@ import headshot from "../../static/headshot.png";
 import prev from "../../static/portPrev.png";
 import { Canvas, useFrame } from 'react-three-fiber';
 import * as THREE from 'three';
+import  { Breakpoint, BreakpointProvider } from 'react-socks';
+
 
 export default function Home() {
 	
@@ -18,6 +20,7 @@ export default function Home() {
   
   return (
     <div className='grad'>
+      <BreakpointProvider>
 		
         <Helmet>
         <title>Max Koiwai</title>
@@ -27,8 +30,11 @@ export default function Home() {
         <meta property='og:url' content='https://maximjk.com/' />
         <meta name="viewport" content="width=device-width, maximum-scale=1"/>
         </Helmet>
- 
+        <Breakpoint medium up>
+		<Breakpoint medium up>
 		<AnimationContainer/>
+    </Breakpoint>imationContainer/>
+    </Breakpoint>
     <div className='flex'>
     <div className='grid'>
       
@@ -43,13 +49,14 @@ export default function Home() {
     
     
     
-<br></br>
+    <br></br>
     <img src={headshot} alt='maxkoiwai'></img>
   </div>
 
     </div>
     <Links content={body} setBody={setBody}/>
     </div>
+    </BreakpointProvider>
     </div>
   )
 }
