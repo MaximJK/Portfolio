@@ -25,7 +25,8 @@ export default function AnimationContainer(props) {
 
 
 		camera = new THREE.PerspectiveCamera( 35, SCREEN_WIDTH / SCREEN_HEIGHT, 1, 5000 );
-		camera.position.z = 1500;
+        camera.position.z = 1500;
+        camera.position.y =210
 
 		scene = new THREE.Scene();
 		scene.background = new THREE.Color( 0x000000 );
@@ -82,8 +83,7 @@ export default function AnimationContainer(props) {
 			scene2.add( meshCanvas2 );
 
 			var geometry = new THREE.PlaneBufferGeometry( 100, 100 );
-			var mesh = new THREE.Mesh( geometry, materialPainting );
-			var mesh2 = new THREE.Mesh( geometry, materialPainting2 );
+	
 		}
 
 		
@@ -122,11 +122,11 @@ export default function AnimationContainer(props) {
 	}
 
 	function render() {
+		camera.lookAt( scene.position );
 
 		camera.position.x += ( mouseX - camera.position.x ) * .09;
 		camera.position.y += ( - ( mouseY - 200 ) - camera.position.y ) * .09;
-
-		camera.lookAt( scene.position );
+        renderer.clear();
 
 		
 		
