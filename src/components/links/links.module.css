@@ -2,13 +2,13 @@
     /* height: 100%; */
     width: 28%;
     font-size: 3.5vw;
-    margin-top: 10%;
-    background-color: var(--main-bg-color)
+    margin-top: 3%;
+    /* background-color: var(--main-bg-color) */
 }
 
 .links > ul {
     list-style: none;
-    background-color: var(--main-bg-color)
+    /* background-color: var(--main-bg-color) */
     
 }
 

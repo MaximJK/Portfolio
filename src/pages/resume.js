@@ -1,6 +1,7 @@
 import React, { useState } from "react"
 import { Helmet } from "react-helmet";
 import resumeStyles from "./resume.module.css";
+import AnimationContainer from "../components/modules/animationContainer";
 import Header from "../components/header/header";
 import Links from "../components/links/links";
 import thumb from "../../static/ResumeThumb.png";
@@ -18,7 +19,7 @@ export default function Resume(props) {
     <meta property='og:url' content='https://maximjk.com/' />
     <meta name="viewport" content="width=device-width, initial-scale=1"></meta>
     </Helmet>
-
+    <AnimationContainer/>
 
 <div className='flex'>
 <div className='grid'>

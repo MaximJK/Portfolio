@@ -1,15 +1,24 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Header from "../components/header/header";
 import Links from "../components/links/links";
+import AnimationContainer from "../components/modules/animationContainer";
 import { Helmet } from "react-helmet";
 import aboutmeStyles from "./aboutme.module.css";
 import headshot from "../../static/headshot.png";
 import prev from "../../static/portPrev.png";
+import { Canvas, useFrame } from 'react-three-fiber';
+import * as THREE from 'three';
 
 export default function Home() {
+	
   const [body, setBody] = useState('aboutme');
+
+
+  
+  
   return (
     <div className='grad'>
+		
         <Helmet>
         <title>Max Koiwai</title>
         <meta property='og:title' content='Max Koiwai'/>
@@ -18,10 +27,11 @@ export default function Home() {
         <meta property='og:url' content='https://maximjk.com/' />
         <meta name="viewport" content="width=device-width, maximum-scale=1"/>
         </Helmet>
-    
-
+ 
+		<AnimationContainer/>
     <div className='flex'>
     <div className='grid'>
+      
     {/* <Footer /> */}
       <Header content={body} setBody={setBody}/>
       {/* <Link to="/contact/">Contact</Link> */}

@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import Header from "../components/header/header";
 import Links from "../components/links/links";
+import AnimationContainer from "../components/modules/animationContainer";
 import contactStyles from "./contact.module.css";
 import { Helmet } from "react-helmet";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
@@ -24,6 +25,7 @@ export default function Contact() {
         <meta property='og:url' content='https://maximjk.com/' />
         <meta name="viewport" content="width=device-width, maximum-scale=1"/>
         </Helmet>
+        <AnimationContainer/>
         <div className='flex'>
         <div className='grid'>
     

@@ -5,6 +5,7 @@ import sema from "../../static/semapreview.png";
 import openbook from "../../static/openbookp.png";
 import Header from "../components/header/header";
 import Links from "../components/links/links";
+import AnimationContainer from "../components/modules/animationContainer";
 import { Helmet } from "react-helmet";
 import prev from "../../static/portPrev.png";
 
@@ -22,7 +23,7 @@ export default function Projects(props) {
         <meta name="viewport" content="width=device-width, maximum-scale=1"/>
         </Helmet>
 
-
+        <AnimationContainer/>
 <div className='flex'>
 <div className='grid'>
   <Header content={body} setBody={setBody}/>

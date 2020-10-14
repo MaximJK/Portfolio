@@ -28,15 +28,18 @@ body{
     margin: 0;
     background: var(--main-bg-color);
     /* height: 98vh; */
-    border: 2px solid #ebedec;
+    
     position: absolute;
     width: 100%;
+    /* display: none !important; */
 }
 .flex{
     display: flex;
     justify-content: space-between;
     z-index: 2;
     height: 100%;
+    position: relative;
+    /* display: none !important; */
    
 }
 .grid {
@@ -44,10 +47,11 @@ body{
     height: 100%;
     margin-left: auto;
     overflow: auto;
-    background: #3f3f42;   /* background: radial-gradient(circle at 101% 40%, rgb(40 130 185) 20%, rgb(79 74 65) 40%, rgb(246 238 234) 75%); */
+    background: #252525; 
     overflow-y: scroll;
     scrollbar-width: none; /* Firefox */
     -ms-overflow-style: none;  /* Internet Explorer 10+ */
+    /* display: none !important; */
 
 }
 .grid::-webkit-scrollbar { /* WebKit */
@@ -80,6 +84,10 @@ a{
     margin: 0;
     color: #e8e8e8;
 }
+.Three_container{
+    position: absolute;
+    z-index: 1;
+}
 
 @media only screen and (max-width: 650px) {
  .grid{
@@ -91,6 +99,7 @@ a{
  .grad{
      border:  none;
      display: flex;
-  flex-direction: column;
+    flex-direction: column;
+    border: 2px solid #ebedec;
  }
 }
