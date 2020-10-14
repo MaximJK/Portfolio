@@ -47,7 +47,8 @@ body{
     height: 100%;
     margin-left: auto;
     overflow: auto;
-    background: #252525; 
+    background: #252525fc;
+     
     overflow-y: scroll;
     scrollbar-width: none; /* Firefox */
     -ms-overflow-style: none;  /* Internet Explorer 10+ */
@@ -94,7 +95,7 @@ a{
     /* width: 100%; */
     margin: 0;
     flex: 1;
-    
+    background: #252525;
  }
  .grad{
      border:  none;
