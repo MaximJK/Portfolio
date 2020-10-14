@@ -31,10 +31,8 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, maximum-scale=1"/>
         </Helmet>
         <Breakpoint medium up>
-		<Breakpoint medium up>
-		<AnimationContainer/>
-    </Breakpoint>imationContainer/>
-    </Breakpoint>
+		    <AnimationContainer/>
+        </Breakpoint>
     <div className='flex'>
     <div className='grid'>
       
