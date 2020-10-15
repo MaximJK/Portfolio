@@ -9,9 +9,9 @@ export default function AnimationContainer(props) {
         var SCREEN_WIDTH = window.innerWidth;
 	var SCREEN_HEIGHT = window.innerHeight;
 
-	var container;
 
-	var camera, scene, scene2, renderer;
+
+	var camera, scene,  renderer = null
 
 	var mouseX = 0, mouseY = 0;
 
@@ -32,9 +32,7 @@ export default function AnimationContainer(props) {
 		scene.background = new THREE.Color( 0x000000 );
 		scene.fog = new THREE.Fog( 0x000000, 1500, 4000 );
 
-		scene2 = new THREE.Scene();
-		scene2.background = new THREE.Color( 0x000000 );
-		scene2.fog = new THREE.Fog( 0x000000, 1500, 4000 );
+		
 
 		// GROUND
 
@@ -72,7 +70,7 @@ export default function AnimationContainer(props) {
 		meshCanvas2.rotation.x = - Math.PI / 2;
 		meshCanvas2.scale.set( 1000, 1000, 1000 );
 		scene.add( meshCanvas );
-			scene2.add( meshCanvas2 );
+			
 
 		
 		var callbackPainting = function () {
@@ -80,18 +78,11 @@ export default function AnimationContainer(props) {
 			
 
 			scene.add( meshCanvas );
-			scene2.add( meshCanvas2 );
+			
 
-			var geometry = new THREE.PlaneBufferGeometry( 100, 100 );
+			
 	
 		}
-
-		
-		var materialPainting = new THREE.MeshBasicMaterial( { color: 0xffffff  } );
-		var materialPainting2 = new THREE.MeshBasicMaterial( { color: 0xffccaa } );
-
-		
-
 
 		renderer = new THREE.WebGLRenderer( { antialias: true } );
 		renderer.setPixelRatio( window.devicePixelRatio );
