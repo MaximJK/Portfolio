@@ -67,6 +67,7 @@
     .links {
         flex: 0;
         height: 100%;
+        margin-top: 10%;
     }
     .links > ul{
         list-style: none;
