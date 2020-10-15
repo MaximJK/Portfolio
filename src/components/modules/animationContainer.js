@@ -7,22 +7,16 @@ export default function AnimationContainer(props) {
 
     useEffect(() => {
         var SCREEN_WIDTH = window.innerWidth;
-	var SCREEN_HEIGHT = window.innerHeight;
+        var SCREEN_HEIGHT = window.innerHeight;
 
 
 
-	var camera, scene,  renderer = null
+        var camera, scene,  renderer = null
 
-	var mouseX = 0, mouseY = 0;
+        var mouseX = 0, mouseY = 0;
 
-	var windowHalfX = window.innerWidth / 2;
-	var windowHalfY = window.innerHeight / 2;
-
-	
-
-
-	
-
+        var windowHalfX = window.innerWidth / 2;
+        var windowHalfY = window.innerHeight / 2;
 
 		camera = new THREE.PerspectiveCamera( 35, SCREEN_WIDTH / SCREEN_HEIGHT, 1, 5000 );
         camera.position.z = 1500;
@@ -31,8 +25,6 @@ export default function AnimationContainer(props) {
 		scene = new THREE.Scene();
 		scene.background = new THREE.Color( 0x000000 );
 		scene.fog = new THREE.Fog( 0x000000, 1500, 4000 );
-
-		
 
 		// GROUND
 
@@ -70,36 +62,23 @@ export default function AnimationContainer(props) {
 		meshCanvas2.rotation.x = - Math.PI / 2;
 		meshCanvas2.scale.set( 1000, 1000, 1000 );
 		scene.add( meshCanvas );
-			
-
-		
-		var callbackPainting = function () {
-
-			
-
-			scene.add( meshCanvas );
-			
-
-			
-	
-		}
 
 		renderer = new THREE.WebGLRenderer( { antialias: true } );
 		renderer.setPixelRatio( window.devicePixelRatio );
 		renderer.setSize( SCREEN_WIDTH, SCREEN_HEIGHT - 10 );
 		renderer.autoClear = false;
 
-		renderer.domElement.style.position = "relative";
-            canvasContainer.current.appendChild( renderer.domElement );
-	
-            document.addEventListener( 'mousemove', onDocumentMouseMove, false );
+		
+        canvasContainer.current.appendChild( renderer.domElement );
 
-            function onDocumentMouseMove( event ) {
-    
-                    mouseX = ( event.clientX - windowHalfX ) * 0.05;
-                    mouseY = ( event.clientY - windowHalfY ) * 0.05;
-    
-                }
+        document.addEventListener( 'mousemove', onDocumentMouseMove, false );
+
+        function onDocumentMouseMove( event ) {
+
+                mouseX = ( event.clientX - windowHalfX ) * 0.05;
+                mouseY = ( event.clientY - windowHalfY ) * 0.05;
+
+            }
 
 
 
@@ -136,7 +115,7 @@ export default function AnimationContainer(props) {
     }
 	animate();
 	callbackPainting()
-           
+    scene.add( meshCanvas );      
             
         }, [])
         return (
