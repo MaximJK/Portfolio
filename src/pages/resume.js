@@ -20,10 +20,13 @@ export default function Resume(props) {
     <meta property='og:description' content='Max Koiwai'/>
     <meta property='og:url' content='https://maximjk.com/' />
     <meta name="viewport" content="width=device-width, initial-scale=1"></meta>
+    
     </Helmet>
+    <div>
     <Breakpoint medium up>
 		<AnimationContainer/>
     </Breakpoint>
+    </div>
 
 <div className='flex'>
 <div className='grid'>
