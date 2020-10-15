@@ -22,7 +22,7 @@ export default function Contact() {
         <Helmet>
         <title>Max Koiwai</title>
         <meta property='og:title' content='Max Koiwai'/>
-        <meta property='og:image' content='https://i.ibb.co/g7xJ3M0/portprev.png'/>
+        <meta property='og:image' content='https://i.ibb.co/SR51hjy/Screen-Shot-2020-10-14-at-8-52-59-PM.png'/>
         <meta property='og:description' content='Max Koiwai'/>
         <meta property='og:url' content='https://maximjk.com/' />
         <meta name="viewport" content="width=device-width, maximum-scale=1"/>
