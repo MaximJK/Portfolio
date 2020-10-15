@@ -85,7 +85,7 @@ export default function AnimationContainer(props) {
 
 	function animate() {
 
-		requestAnimationFrame( animate );
+		requestRef = requestAnimationFrame(animate);  
 
 		render();
 
@@ -98,8 +98,6 @@ export default function AnimationContainer(props) {
 		camera.position.y += ( - ( mouseY - 200 ) - camera.position.y ) * .09;
         renderer.clear();
 
-		
-		
 		renderer.render( scene, camera );
 
 	}
@@ -112,10 +110,17 @@ export default function AnimationContainer(props) {
     
         renderer.setSize( window.innerWidth, window.innerHeight );
     
-    }
-	animate();
-    scene.add( meshCanvas );      
-            
+	}
+	
+
+
+	
+	scene.add( meshCanvas );
+	let requestRef = requestAnimationFrame(animate);      
+	return () => {
+		cancelAnimationFrame(requestRef);
+		window.removeEventListener( 'resize', onWindowResize, false );
+	  }
         }, [])
         return (
             <div className="Three_container" ref={canvasContainer}></div>
