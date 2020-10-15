@@ -14,7 +14,7 @@ export default function Resume(props) {
     <div className='grad'>
       <BreakpointProvider>
     <Helmet>
-    <title>Max Koiwai</title>
+    <title>Max Koiwai - Resume</title>
     <meta property='og:title' content='Max Koiwai'/>
     <meta property='og:image' content='MaxKoiwaiResume.pdf'/>
     <meta property='og:description' content='Max Koiwai'/>

@@ -17,7 +17,7 @@ export default function Projects(props) {
     <div className='grad'>
       <BreakpointProvider>
       <Helmet>
-      <title>Max Koiwai</title>
+      <title>Max Koiwai - Projects</title>
         <meta property='og:title' content='Max Koiwai'/>
         <meta property='og:image' content='https://i.ibb.co/SR51hjy/Screen-Shot-2020-10-14-at-8-52-59-PM.png'/>
         <meta property='og:description' content='Max Koiwai'/>
