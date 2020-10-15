@@ -114,7 +114,6 @@ export default function AnimationContainer(props) {
     
     }
 	animate();
-	callbackPainting()
     scene.add( meshCanvas );      
             
         }, [])
