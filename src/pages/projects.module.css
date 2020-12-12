@@ -38,7 +38,7 @@
     margin-bottom: 2vh;
      width: 50%;
      display: block;
-     box-shadow: 5px 10px 8px #888888
+     box-shadow: 4px 5px 8px #888888;
  }
  .projectBox > a{
     font-size: 16px;

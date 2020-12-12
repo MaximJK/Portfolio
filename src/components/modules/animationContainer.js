@@ -75,8 +75,8 @@ export default function AnimationContainer(props) {
 
         function onDocumentMouseMove( event ) {
 
-                mouseX = ( event.clientX - windowHalfX ) * 0.05;
-                mouseY = ( event.clientY - windowHalfY ) * 0.05;
+                mouseX = ( event.clientX - windowHalfX ) * 0.1;
+                mouseY = ( event.clientY - windowHalfY ) * 0.1;
 
             }
 
