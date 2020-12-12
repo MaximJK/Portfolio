@@ -63,7 +63,9 @@ body{
     background-color: whitesmoke;
 }
 .skill{
-    color: #e6b1b1;
+    text-decoration: underline;
+    text-decoration-color: #e6b1b1;;
+    
 }
 
 .link {
