@@ -31,7 +31,7 @@
     "react-helmet": "^6.1.0",
     "react-socks": "^2.1.0",
     "react-three-fiber": "^5.0.3",
-    "three": "^0.121.1"
+    "three": "^0.125.0"
   },
   "devDependencies": {
     "gatsby-plugin-remove-trailing-slashes": "^2.3.11",
