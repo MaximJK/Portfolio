@@ -47,7 +47,7 @@ body{
     height: 100%;
     margin-left: auto;
     overflow: auto;
-    background: #252525fc;
+    background: rgb(37 37 37 / 83%);
      
     overflow-y: scroll;
     scrollbar-width: none; /* Firefox */
