@@ -46,7 +46,7 @@ export default function Home() {
       
       <div className={aboutmeStyles.aboutme}>
         
-    <p>Hello! I'm a software engineer based in the USA. I code in <span className='skill'>Python</span>, <span className='skill'>JavaScript</span>, <span className='skill'>Ruby</span>, <span className='skill'>CSS3</span> and <span className='skill'>HTML5</span>.
+    <p>Hello! I'm a software engineer based in the USA. I code in <span className='skill'>Python</span>, <span className='skill'>JavaScript</span>, <span className='skill'>TypeScript</span>, <span className='skill'>Ruby</span>, <span className='skill'>CSS3</span> and <span className='skill'>HTML5</span>.
       Some of my favorite technologies to work with are <span className='skill'>React</span>, <span className='skill'>Django</span>, <span className='skill'>Rails</span>, <span className='skill'>Node.js</span>, <span className='skill'>PostgreSQL</span>. When I'm not programming I'm painting, writing and reading.</p>
     
     
